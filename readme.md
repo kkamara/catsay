@@ -16,3 +16,9 @@ echo -n "Hello World" | cargo run -- --stdin
 # Printing to STDERR
 cargo run "woof" 1> stdout.txt 2> stderr.txt
 ```
+
+## Testing
+
+```bash
+cargo test
+```
