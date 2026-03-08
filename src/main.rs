@@ -1,5 +1,6 @@
 use clap::Parser;
 use colored::Colorize;
+// For better error messages
 use anyhow::{Context, Result};
 
 #[derive(Parser)]
