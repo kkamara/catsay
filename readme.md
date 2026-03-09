@@ -17,6 +17,26 @@ echo -n "Hello World" | cargo run -- --stdin
 cargo run "woof" 1> stdout.txt 2> stderr.txt
 ```
 
+#### Output Example
+
+```bash
+cargo run -- -f catfile.txt
+Meow!
+                   .-.
+                  / /
+                 / |
+   |\     ._ ,-""  `.
+   | |,,_/  7        ;
+ `;=     ,=(     ,  /
+  |`o  o  ` |    \_,|
+ .=; <> _ ; /  ,/'/ |
+';|\,j_ \;=\ ,/   `-'
+    `--'_|\  )
+   ,' | /  ;'
+  (,,/ (,,/
+
+```
+
 ## Testing
 
 ```bash
